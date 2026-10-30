@@ -32,12 +32,10 @@
 
 .portfolio-list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    row-gap: 48px;
+    column-gap: 24px;
 }
-
 
 .portfolio-wrapper {
     border-bottom: 1px solid #e7e9fc;
@@ -52,5 +50,5 @@
 }
 
 .portfolio-item {
-    flex-basis: calc ((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
