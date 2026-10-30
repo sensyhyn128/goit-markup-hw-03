@@ -1,5 +1,5 @@
 .features-section-title {
-    display: none;
+    overflow: hidden;
 }
 
 .feature-title {
@@ -24,8 +24,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 156px;
-    padding: 120px;
     gap: 24px;
 }
 
@@ -42,4 +40,5 @@
 
 .features-item {
     min-width: 264px;
+    padding: 120px 0;
 }
